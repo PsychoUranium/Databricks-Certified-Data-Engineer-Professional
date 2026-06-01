@@ -68,3 +68,7 @@ process_books_sales()
 
 # MAGIC %sql
 # MAGIC SELECT count(*) FROM books_sales
+
+# COMMAND ----------
+
+

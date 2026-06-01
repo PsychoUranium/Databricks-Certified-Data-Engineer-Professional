@@ -51,3 +51,7 @@ query.awaitTermination()
 
 # MAGIC %sql
 # MAGIC SELECT * FROM authors_stats
+
+# COMMAND ----------
+
+

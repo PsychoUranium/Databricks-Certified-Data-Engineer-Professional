@@ -75,3 +75,7 @@ process_bronze()
 
 # MAGIC %sql
 # MAGIC SELECT COUNT(*) FROM bronze
+
+# COMMAND ----------
+
+

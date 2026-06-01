@@ -79,3 +79,7 @@ query.awaitTermination()
 # COMMAND ----------
 
 dbutils.fs.rm(f"{bookstore.checkpoint_path}/orders_silver", True)
+
+# COMMAND ----------
+
+

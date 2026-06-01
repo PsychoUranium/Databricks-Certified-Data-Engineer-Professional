@@ -127,3 +127,7 @@ display(books_df)
 # MAGIC SELECT *
 # MAGIC FROM current_books
 # MAGIC ORDER BY book_id
+
+# COMMAND ----------
+
+

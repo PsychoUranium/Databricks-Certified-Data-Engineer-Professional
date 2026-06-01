@@ -82,3 +82,7 @@ streaming_total = spark.read.table("orders_silver").count()
 
 print(f"batch total: {batch_total}")
 print(f"streaming total: {streaming_total}")
+
+# COMMAND ----------
+
+

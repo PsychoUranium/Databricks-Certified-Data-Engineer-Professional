@@ -115,3 +115,7 @@ expected_count = spark.table("customers_silver").select("customer_id").distinct(
 
 assert count == expected_count, "Unit test failed"
 print("Unit test passed")
+
+# COMMAND ----------
+
+

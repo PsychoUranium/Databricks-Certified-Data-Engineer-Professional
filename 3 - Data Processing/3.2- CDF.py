@@ -35,6 +35,11 @@ bookstore.process_customers_silver()
 # COMMAND ----------
 
 # MAGIC %sql
+# MAGIC DESCRIBE HISTORY customers_silver
+
+# COMMAND ----------
+
+# MAGIC %sql
 # MAGIC SELECT * 
 # MAGIC FROM table_changes("customers_silver", 2)
 
@@ -54,3 +59,7 @@ cdf_df = (spark.readStream
                .table("customers_silver"))
 
 display(cdf_df, checkpointLocation = f"{bookstore.checkpoint_path}/tmp/cdf_{time.time()}")
+
+# COMMAND ----------
+
+
